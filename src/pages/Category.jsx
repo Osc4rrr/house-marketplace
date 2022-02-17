@@ -61,7 +61,7 @@ const Category = () => {
         <p className="pageHeader">
           {params.categoryName == "rent"
             ? "Places For Rent"
-            : "Places For Sell"}
+            : "Places For Sale"}
         </p>
       </header>
 
