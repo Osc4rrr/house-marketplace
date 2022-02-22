@@ -67,7 +67,7 @@ const CreateListing = () => {
     return () => {
       isMounted.current = false;
     };
-  }, [isMounted, auth, formData, navigate]);
+  }, [isMounted]);
 
   const onSubmit = async (e) => {
     e.preventDefault();

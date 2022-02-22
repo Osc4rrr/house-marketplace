@@ -97,7 +97,7 @@ const EditListing = () => {
     return () => {
       isMounted.current = false;
     };
-  }, [isMounted, auth, listing, formData, navigate]);
+  }, [isMounted]);
 
   const onSubmit = async (e) => {
     e.preventDefault();
