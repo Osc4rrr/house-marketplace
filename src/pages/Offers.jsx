@@ -57,7 +57,6 @@ const Offers = () => {
 
   //Pagination / Load More
   const onFetchMoreListings = async () => {
-    console.log(listings.length % 2);
     try {
       //Fetch reference
       const listingsRef = collection(db, "listings");
